@@ -37,7 +37,7 @@
                     <li><a class="smooth-scroll-link" href="#experience">Experience</a></li>
                     <li><a class="smooth-scroll-link" href="#resume">Resume</a></li>
                     <li><a class="smooth-scroll-link" href="#contact">Contact</a></li>
-                    <li class="dropdown">
+                    <!-- <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             Downloads
                             <b class="caret"></b>
@@ -45,25 +45,54 @@
                         <ul class="dropdown-menu">
                             <li><a class="smooth-scroll-link" href="#">Resume .pdf</a></li>
                             <li><a class="smooth-scroll-link" href="#">Resume .html</a></li>
-                            <li><a class="smooth-scroll-link" href="#">Portfolio .pdf</a></li>
-                            <li><a class="smooth-scroll-link" href="#">Portfolio .html</a></li>
-                            <li><a class="smooth-scroll-link" href="#">Cover Letter .pdf</a></li>
-                            <li><a class="smooth-scroll-link" href="#">Cover Letter .html</a></li>
                         </ul>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
     </nav>
     <section id="intro" class="intro">
-        <div class="slogan">
-            <h2>Alex Nikitin</h2>
-            <h4>Professional Linux Full-Stack Web-Developer/Programmer</h4>
-        </div>
-        <div class="page-scroll">
-            <a href="#skills" class="btn btn-circle smooth-scroll-link">
-                <i class="fa fa-angle-double-down animated"></i>
-            </a>
+        <div class="bg-overlay">bg-overlay</div>
+        
+        <div class="row text-light text-left intro-text">
+            <div class="col-md-4 col-md-offset-2">
+                <p>
+                    My name is Alexander Nikitin. I'm a full-stack programmer in the field related
+                    to web and various Online services.
+                </p>
+                <p>
+                    I have two masters’ degrees: Master in Information Technology at Clark
+                    University (GPA: 3.92, Worcester, MA, USA) and Master’s degree with honors in
+                    “Program Engineering: Security and Data Protection” (GPA: 3.9).
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    I have work experience as a full-stack programmer for 8+&nbsp;years (PHP, MySQL, Apache,
+                    Nginx, LAMP, REST API, HTML5, CSS3, JavaScript, JQuery, PhoneGap/Cordova development, 
+                    various Amazon Cloud Tools, Linux Environment), and I've been working in the USA
+                    for 3.5 years.
+                </p>
+                <p>
+                    I speak in two languages: English (excelent) and Russian (as my native language)
+                </p>
+            </div>
+            <div class="col-md-8 col-md-offset-2">
+                <p>
+                    If you're willing to contact me,
+                    please send me an email to
+                    <a href="mailto:alex@nikitin.ninja?subject=New Connection From Alex's Web Site">alex@nikitin.ninja</a>
+                    or use
+                    <a class="smooth-scroll-link" href="#contact">the form at the bottom</a>.
+                </p>
+            </div>
+            <div class="col-md-8 col-md-offset-2">
+                <p class="text-center">
+                    <a href="#skills" class="smooth-scroll-link">
+                        <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+                    </a>
+                </p>
+            </div>
         </div>
     </section>
     <section id="skills" class="home-section text-center">
@@ -121,14 +150,14 @@
                                 <h5>Knowledgebase keywords</h5>
                                 <p class="text-left">
                                     <strong>Big Data</strong> processing
-                                    <br> Data <strong>streaming</strong>
+                                    <br>Data <strong>streaming</strong>
                                     <br>
                                     <strong>Docker</strong> and containerization technologies
-                                    <br> GIT and <strong>GIT</strong> flow Website developmet
-                                    <br> CMS/Information Systems Development
+                                    <br>GIT and <strong>GIT flow</strong> developmet
+                                    <br>CMS/Information Systems Development
                                     <br>
                                     <strong>Database</strong> optimization
-                                    <br> Software <strong>integration</strong>
+                                    <br>Software <strong>integration</strong>
                                     <br>
                                     <strong>API</strong> development and support
                                     <br>
@@ -189,7 +218,7 @@
                                         Various front-end development frameworks, such as JQuery, JQuery-UI, Bootstrap, AngularJS and many others
                                     </li>
                                     <li class="text-left">
-                                        Linux Server (Debian/RedHat families), Linux CLI, Amazon Cloud (EC2, S3 Storage, RDS, EMR, ECS/ECR, Elasticacache and others), Docker, VMware ESXi
+                                        Linux Server (Debian/RedHat families), Linux CLI, Amazon Cloud (EC2, S3 Storage, RDS, EMR, ECS/ECR, Elasticacache, SES and many others), Docker, VMware ESXi
                                     </li>
                                     <li class="text-left">
                                         Understanding and configuring VoIP Systems, Asterisk, FreePBX
@@ -257,16 +286,52 @@
                     <div class="wow fadeInUp" data-wow-delay="0.15s">
                         <div class="team boxed-grey">
                             <div class="inner text-left">
-                                <h5>SPINS LLC, IL, USA <div class="pull-right">[July 2015 – Present]</div></h5>
+                                <h5>SPINS LLC, IL, USA <div class="pull-right">[Augist 2016 – Present]</div></h5>
                                 <p class="subtitle">Programmer</p>
                                 <div class="row">
                                     <div class="col-md-11 col-md-offset-1">
                                         <ul>
-                                            <li>Writing, maintaining, debugging and implementing company's information systems using programming languages PHP, HTML5, CSS3, JavaScript, Ajax, AngularJS, JQuery</li>
-                                            <li>Developing and implementing the database using MySQL</li>
-                                            <li>Consulting other programmers about the system infrastructure and software algorithms</li>
-                                            <li>Researching technology limitations and consulting about systems' needs</li>
-                                            <li>Creating interaction with other internal and external systems using API</li>
+                                            <li>Developed and maitained reporting system</li>
+                                            <li>Montly reporting (generated in PDF format and delivered by email and Amazon S3 storage)</li>
+                                            <li>Online reporting</li>
+                                            <li>Queries optimization</li>
+                                            <li>DB structure optimization</li>
+                                            <li>Implemented Elasticache (Memcached) for the caching layer</li>
+                                            <li>Implemented MemSQL database engine for faster queries processing and caching layer</li>
+                                            <li>Implemented API level for Redshift analytical DB (similar to PostgreSQL)</li>
+                                            <li>Implemented MVC OOP framework based on PHP for Restful API</li>
+                                            <li>Created front-end reporting system within the main portal based on AngularJS</li>
+                                            <li>Implemented additional modules for the main protal (Coffee Script, jade, AngularJS) with using reporting API</li>
+                                            <li>Implemented/worked with docker environment</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row marginbot-20">
+                <div class="col-md-12">
+                    <div class="wow fadeInUp" data-wow-delay="0.15s">
+                        <div class="team boxed-grey">
+                            <div class="inner text-left">
+                                <h5>Destini LLC, CA, USA <div class="pull-right">[July 2015 – present]</div></h5>
+                                <p class="subtitle">Programmer</p>
+                                <div class="row">
+                                    <div class="col-md-11 col-md-offset-1">
+                                        <ul>
+                                            <li>Development and maitanance existing company's CMS/CRM system</li>
+                                            <li>Using MySQL (in Amazon RDS) as the main database</li>
+                                            <li>Using Redshift DB (similar to PostgreSQL) as the tracking analytic storage (over 1.5 Billions of records)</li>
+                                            <li>Building and maitanance RESTful API using OOP MVC Framework based on PHP </li>
+                                            <li>Building and maitanance Copany portal using PHP, Javscript, HTML/HTML5</li>
+                                            <li>Consumer Data export for analytical needs and for data processing</li>
+                                            <li>Implemented AngularJS to the company needs</li>
+                                            <li>Improved security and storage structures</li>
+                                            <li>Optimized DB and plenty of DB queries</li>
+                                            <li>Handled analytical and tracking system development and implementation (Apache Spark, EMR)</li>
+                                            <li>Handled a lot of support, debugging and consulting</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -377,8 +442,14 @@
                                 <div class="row">
                                     <div class="col-md-11 col-md-offset-1">
                                         <ul>
-                                            <li>Developed back-end and front-end of the Geo-location system (PHP, MySQL, Apache, MVC pattern, CSS3, HTML4/5, JavaScript, jQuery, Ajax, Google Maps API)</li>
-                                            <li>Web-system interacted with car tracking hardware via internal API</li>
+                                            <li>Developed front-end of geolocation web-system (CSS3, HTML4/5, JavaScript, jQuery, Ajax, Google Maps API, RESTful API)</li>
+                                            <li>Developed back-end geolocation infrastructure (PHP, MySQL, Apache, MVC pattern)</li>
+                                            <li>Made integration with existing tracking hardware (cars trackers)</li>
+                                            <li>Made integration with computers for cars (CarPC) shell</li>
+                                            <li>Developed company website</li>
+                                            <li>Data structures development</li>
+                                            <li>Database optimization</li>
+                                            <li>Data streaming</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -506,58 +577,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="wow fadeInUp" data-wow-delay="0.15s">
-                        <div class="team">
-                            <div class="inner text-left">
-                                <h5>Portfolio</h5>
-                                <div class="row">
-                                    <div class="col-md-11 col-md-offset-1">
-                                        <p>
-                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                                            <a href="#">Download AlexNikitin(portfolio).pdf</a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-11 col-md-offset-1">
-                                        <p>
-                                            <i class="fa fa-html5" aria-hidden="true"></i>
-                                            <a href="#">Open/View AlexNikitin(portfolio).html</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row marginbot-20">
-                <div class="col-md-6">
-                    <div class="wow fadeInUp" data-wow-delay="0.15s">
-                        <div class="team">
-                            <div class="inner text-left">
-                                <h5>Cover Letter</h5>
-                                <div class="row">
-                                    <div class="col-md-11 col-md-offset-1">
-                                        <p>
-                                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                                            <a href="#">Download AlexNikitin(CoverLetter).pdf</a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-11 col-md-offset-1">
-                                        <p>
-                                            <i class="fa fa-html5" aria-hidden="true"></i>
-                                            <a href="#">Open/View AlexNikitin(CoverLetter).html</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -674,12 +693,12 @@
                                         Github
                                     </a>
                                 </li>
-                                <li>
+                                <!-- <li>
                                     <a href="#" target="_blank">
                                         <div class="icon"><i class="fa fa-bitbucket" aria-hidden="true"></i></div>
                                         Bitbucket
                                     </a>
-                                </li>
+                                </li> -->
                             </ul>
                         </address>
                     </div>

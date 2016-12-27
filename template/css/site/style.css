@@ -345,7 +345,29 @@ hr {
 }
 
 #intro.intro {
-    padding: 10% 0 5% 0;
+    padding: 10% 0 1% 0;
+    overflow: hidden;
+}
+
+.intro .intro-text a{
+    color: #b6dbff;
+}
+
+.intro .intro-text {
+
+}
+
+.intro .bg-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: url(../../img/bidirectional-bg.png);
+    background-repeat: repeat-x;
+    background-position: left top;
+    background-size: auto 100%;
+    background-color: transparent;
 }
 
 .intro .slogan {
@@ -914,7 +936,7 @@ footer p {
         border-bottom: 1px solid rgba(255, 255, 255, .3);
     }
     .intro {
-        padding: 0;
+        padding: 10%;
     }
     .brand-heading {
         font-size: 100px;
@@ -929,6 +951,9 @@ footer p {
 }
 
 @media (max-width:768px) {
+    .intro {
+        padding: 10%;
+    }
     .nav.navbar-nav {
         background-color: rgba(255, 255, 255, 1);
     }
@@ -944,6 +969,9 @@ footer p {
 }
 
 @media (max-width:480px) {
+    .intro {
+        padding: 10%;
+    }
     .navbar-custom .nav.navbar-nav {
         background-color: rgba(255, 255, 255, 1);
     }
