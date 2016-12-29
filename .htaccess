@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	RewriteCond %{HTTP_HOST} ^nikitin.ninja [NC]
+	RewriteRule ^(.*)$ http://alex.nikitin.ninja/$1 [L,R=301,NC]
+
+	RewriteCond %{HTTPS} off
+	RewriteRule (.*) https://%{SERVER_NAME}/$1 [L,R=301,NC]
+</IfModule>
