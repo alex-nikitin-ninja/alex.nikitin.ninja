@@ -349,6 +349,10 @@ hr {
     overflow: hidden;
 }
 
+.intro .intro-text {
+    text-shadow: 0 0 1px #bbb;
+}
+
 .intro .intro-text a{
     color: #b6dbff;
 }
@@ -872,7 +876,7 @@ footer p {
 
 .service-desc ul {
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 20px;
 }
 
 .service-desc ul li {
@@ -951,8 +955,8 @@ footer p {
 }
 
 @media (max-width:768px) {
-    .intro {
-        padding: 10%;
+    #intro.intro {
+        padding: 60px 15px 2% 15px;
     }
     .nav.navbar-nav {
         background-color: rgba(255, 255, 255, 1);
@@ -969,8 +973,8 @@ footer p {
 }
 
 @media (max-width:480px) {
-    .intro {
-        padding: 10%;
+    #intro.intro {
+        padding: 60px 15px 2% 15px;
     }
     .navbar-custom .nav.navbar-nav {
         background-color: rgba(255, 255, 255, 1);
