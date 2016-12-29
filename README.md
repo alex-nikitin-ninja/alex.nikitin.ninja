@@ -1,1 +1,1 @@
-This is alex.nikitin.ninja website repository.
+This is https://alex.nikitin.ninja/ website repository.
