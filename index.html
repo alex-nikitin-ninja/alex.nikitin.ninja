@@ -21,6 +21,7 @@
     </div>
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
+            
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
@@ -30,15 +31,19 @@
                     <h2>Personal Web Site</h2>
                 </a>
             </div>
+            
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a class="smooth-scroll-link" href="#intro">Home</a></li>
-                    <li><a class="smooth-scroll-link" href="#skills">Skills</a></li>
-                    <li><a class="smooth-scroll-link" href="#experience">Experience</a></li>
-                    <li><a class="smooth-scroll-link" href="#resume">Resume</a></li>
-                    <li><a class="smooth-scroll-link" href="#contact">Contact</a></li>
+                    <li class="active waves-effect-simple"><a class="smooth-scroll-link" href="#intro">Home</a></li>
+                    <li class="waves-effect-simple"><a class="smooth-scroll-link" href="#skills">Skills</a></li>
+                    <li class="waves-effect-simple"><a class="smooth-scroll-link" href="#experience">Experience</a></li>
+                    <li class="waves-effect-simple"><a class="smooth-scroll-link" href="#resume">Resume</a></li>
+                    <li class="waves-effect-simple"><a class="smooth-scroll-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
+
+            
+
         </div>
     </nav>
     <section id="intro" class="intro">
@@ -641,20 +646,19 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label for="name">
+                                        <label for="message">
                                             Message
                                         </label>
-                                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                        <textarea class="form-control" id="message" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                                         <div class="validation"></div>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <button type="submit" class="btn btn-skin pull-right submit-button" id="btnContactUs">
+                                    <button type="submit" class="btn btn-skin pull-right submit-button waves-effect-simple" id="btnContactUs">
                                         Send Message
                                     </button>
                                 </div>
                             </div>
-
 
                         </div>
                     </div>
@@ -676,7 +680,7 @@
                             <strong>Find me on social networks</strong>
                             <br>
                             <ul class="company-social">
-                                <li>
+                                <li class="waves-effect-simple waves-effect-simple-dark">
                                     <a href="https://github.com/alex-nikitin-ninja/alex.nikitin.ninja" target="_blank">
                                         <div class="icon"><i class="fa fa-github" aria-hidden="true"></i></div>
                                         Github
@@ -715,6 +719,10 @@
     <script src="template/js/libs/wow.min.js"></script>
     <script src="template/js/site/sendMail.js"></script>
     <script src="template/js/site/custom.js"></script>
+    
+    <link rel="stylesheet" href="/demos/waves-effect-simple/src/waves-effect-simple.css">
+    <script src="/demos/waves-effect-simple/src/waves-effect-simple.js"></script>
+
 </body>
 
 </html>
